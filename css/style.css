@@ -170,6 +170,7 @@ button {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: var(--color-main-dark);
 }
 
 .header__link a:active {
@@ -215,8 +216,12 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 200px 450px;
+  padding: 200px 0;
   text-align: center;
+}
+
+.hero__container {
+  padding: 0 250px;
 }
 
 .hero__title {
@@ -351,12 +356,12 @@ button {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer__link a:hover, .footer__link a:focus {
-  color: var(--main-color);
-}
-
 .footer__link:first-child a {
   color: var(--color-main-light);
+}
+
+.footer__link:hover a, .footer__link:focus a {
+  color: var(--main-color);
 }
 
 .footer__link:last-child {

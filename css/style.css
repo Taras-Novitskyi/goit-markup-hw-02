@@ -60,7 +60,6 @@ button {
 .button {
   display: inline-block;
   padding: 10px 32px;
-  background: var(--main-color);
   border-radius: 4px;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -72,7 +71,7 @@ button {
 }
 
 .button:hover, .button:focus {
-  background: var(--color-bg-main);
+  background-color: var(--color-bg-main);
 }
 
 .title {
@@ -108,7 +107,6 @@ button {
 }
 
 .header {
-  background-color: var(--color-main-light);
   text-decoration: none;
 }
 
@@ -175,7 +173,6 @@ button {
 .hero {
   text-align: center;
   padding: 200px 0;
-  background: var(--color-bg-dark);
 }
 
 .hero__container {
@@ -194,7 +191,6 @@ button {
 }
 
 .principles {
-  background: var(--color-main-light);
   padding: 94px 0;
   font-size: 14px;
 }
@@ -215,7 +211,6 @@ button {
 }
 
 .works {
-  background: var(--color-main-light);
   padding-bottom: 94px;
 }
 
@@ -232,7 +227,6 @@ button {
 }
 
 .team {
-  background: var(--color-bg-light2);
   padding: 94px 0;
 }
 
@@ -244,7 +238,6 @@ button {
 .team__iteam {
   text-align: center;
   margin: 0 15px;
-  background: var(--color-main-light);
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -265,7 +258,6 @@ button {
 }
 
 .footer {
-  background: var(--color-bg-dark);
   padding: 60px 0;
 }
 
@@ -302,7 +294,6 @@ button {
 }
 
 .portfolio {
-  background: var(--color-main-light);
   padding: 94px 0;
 }
 
@@ -319,7 +310,6 @@ button {
 }
 
 .portfolio__element {
-  background: var(--color-main-light);
   margin: 14px;
 }
 
@@ -332,13 +322,11 @@ button {
   line-height: 1.63;
   letter-spacing: 0.03em;
   color: var(--color-main-dark);
-  background-color: var(--color-bg-light2);
   border-radius: 4px;
 }
 
 .buttons:active {
   color: var(--color-main-light);
-  background-color: var(--main-color);
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }

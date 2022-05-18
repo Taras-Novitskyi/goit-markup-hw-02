@@ -17,6 +17,9 @@ html, body {
 body {
   font-family: 'Roboto', 'Raleway', sans-serif;
   color: var(--color-main-dark);
+  font-size: 16px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
 .wraper {
@@ -51,6 +54,11 @@ button {
   border: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
 [class*="__container"] {
   max-width: 1200px;
   padding: 0 15px;
@@ -61,22 +69,18 @@ button {
   display: block;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--color-main-dark);
 }
 
 .title-h3 {
   font-weight: 700;
   line-height: 1.15;
-  letter-spacing: 0.03em;
   color: var(--color-main-dark);
 }
 
 .subtitle-h3 {
   line-height: 1.86;
-  letter-spacing: 0.03em;
   color: var(--color-second-dark);
 }
 
@@ -86,14 +90,16 @@ button {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
-  text-decoration: none;
   color: var(--main-color);
 }
 
 .header {
   background-color: var(--color-main-light);
   text-decoration: none;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  font-weight: 500;
 }
 
 .header__container {
@@ -114,10 +120,6 @@ button {
 }
 
 .header__link a {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
   color: var(--color-main-dark);
 }
 
@@ -140,12 +142,8 @@ button {
 }
 
 .header__element a {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--color-second-dark);
   margin: 0 20px;
+  color: var(--color-second-dark);
 }
 
 .header__element a:last-child {
@@ -198,6 +196,9 @@ button {
 
 .principles {
   padding: 94px 0;
+}
+
+.principles__list {
   font-size: 14px;
 }
 
@@ -207,12 +208,10 @@ button {
 
 .principles h3 {
   margin-bottom: 10px;
-  font-size: 14px;
   text-transform: uppercase;
 }
 
 .principles p {
-  font-size: 14px;
   line-height: 1.71;
 }
 
@@ -258,13 +257,10 @@ button {
 .team__iteam h3 {
   margin-bottom: 10px;
   font-weight: 500;
-  font-size: 16px;
 }
 
 .team__iteam p {
   margin-bottom: 30px;
-  font-size: 16px;
-  line-height: 1.18;
 }
 
 .footer {
@@ -288,7 +284,6 @@ button {
 .footer__link a {
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -302,27 +297,6 @@ button {
 
 .footer__link:last-child {
   margin-bottom: 0;
-}
-
-.portfolio {
-  padding: 94px 0;
-}
-
-.portfolio__menu {
-  margin-bottom: 50px;
-}
-
-.portfolio__item {
-  margin-right: 8px;
-}
-
-.portfolio__item:last-child {
-  margin-right: 0;
-}
-
-.portfolio__element {
-  background-color: var(--color-main-light);
-  margin: 14px;
 }
 
 .buttons {
@@ -351,8 +325,36 @@ button {
 }
 
 .element-portfolio__title {
+  margin-bottom: 4px;
   font-size: 18px;
+  font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-bottom: 4px;
+  color: var(--color-main-dark);
+}
+
+.element-portfolio__subtitle {
+  line-height: 1.87;
+  color: var(--color-second-dark);
+}
+
+.portfolio {
+  padding: 94px 0;
+}
+
+.portfolio__menu {
+  margin-bottom: 50px;
+}
+
+.portfolio__item {
+  margin-right: 8px;
+}
+
+.portfolio__item:last-child {
+  margin-right: 0;
+}
+
+.portfolio__element {
+  background-color: var(--color-main-light);
+  margin: 14px;
 }
